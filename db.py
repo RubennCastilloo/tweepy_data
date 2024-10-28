@@ -1,12 +1,12 @@
 import mysql.connector
 
 database = mysql.connector.connect(
-    host="",
-    port="",
-    user="",
-    passwd="",
+    host="localhost",
+    port="8889",
+    user="root",
+    passwd="root",
     unix_socket='/Applications/MAMP/tmp/mysql/mysql.sock', # Para conectar a la base de datos en MacOS o Linux
-    database=""
+    database="twitter"
 )
 
 class DataBase():
